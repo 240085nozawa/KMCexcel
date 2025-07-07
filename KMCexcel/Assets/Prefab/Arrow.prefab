@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1337848583376477522}
-  - component: {fileID: 5328212851014568372}
   - component: {fileID: 9184052938469361288}
   - component: {fileID: 5275622267510959532}
   m_Layer: 0
@@ -35,19 +34,6 @@ Transform:
   - {fileID: 868373050873661961}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5328212851014568372
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3756007457754227829}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6440d503fbab0c342872fda7909d6fb5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clickSoundPrefab: {fileID: 6629932058832283444, guid: a017a6cc148995344a3876f0f7faa8a4, type: 3}
 --- !u!65 &9184052938469361288
 BoxCollider:
   m_ObjectHideFlags: 0

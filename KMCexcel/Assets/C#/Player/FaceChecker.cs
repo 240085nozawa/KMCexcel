@@ -22,6 +22,7 @@ public class FaceChecker : MonoBehaviour
         // 接触した相手のタグが自分の色と一致しているか確認
         if (other.CompareTag(faceColor) || other.CompareTag("White"))
         {
+            Debug.Log($"{gameObject.name} is touching {other.tag}");
             // 同じ色、またはWhiteTileと接触中であることを記録
             isTouchingSameColor = true;
         }
