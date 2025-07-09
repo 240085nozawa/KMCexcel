@@ -124,6 +124,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 459bab5fe196e474fae039d27db24f45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  arrowPrefab: {fileID: 0}
+  faceCheckers: []
+  moveDuration: 0.3
+  tileLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  arrowParent: {fileID: 3756007457754227829, guid: 20de1ea09ccda4f46a79b95fb1397bb1, type: 3}
 --- !u!1 &2989171762535645046
 GameObject:
   m_ObjectHideFlags: 0
